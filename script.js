@@ -38,9 +38,9 @@ Parent/Guardian: ${d.get('guardian')||''}
 Phone: ${d.get('phone')||''}
 Learner: ${d.get('learner')||''}
 Age: ${d.get('age')||''}
-Developmental Disability: ${d.get('developmental disability')||''}
+Program: ${d.get('program')||''}
 Message: ${d.get('message')||''}`;
- window.open(`https://wa.me/255715890018?text=${encodeURIComponent(msg)}`,'_blank');
+ window.open(`https://wa.me/255719324324?text=${encodeURIComponent(msg)}`,'_blank');
 });
 
 const translations={
@@ -51,7 +51,7 @@ const translations={
   slide3_title:"Kila mwanafunzi anastahili nafasi.",slide3_text:"Kituo chenye upendo ambapo kila mtu anahimizwa kushiriki, kukua na kuchangia.",learn_more:"Jifunze Zaidi",
   about_label:"Kuhusu Kituo",about_title:"Kumsaidia kila mwanafunzi kufikia uwezo wake.",about_p1:"SALT ni shirika lisilo la kiserikali lililosajiliwa kwa lengo la kuwawezesha watoto na vijana wenye changamoto za maendeleo.",about_p2:"Kituo kinatoa tiba, elimu ya ufundi, stadi za maisha, ujasiriamali, ushauri na fursa za kazi jumuishi.",about_badge:"Kituo cha uwezo, heshima na matumaini",
   mission:"Dhamira",vision:"Maono",mission_text:"Kuboresha maisha kupitia elimu ya ufundi, ujasiriamali, ushauri, utetezi na huduma za ushauri.",vision_text:"Kuwa kituo bora kinachotoa huduma zenye ubora na kuboresha maisha ya watu wenye changamoto za maendeleo.",
-  programs_label:"Programu na Huduma",programs_title:"Msaada kamili na mafunzo ya vitendo",profiles_label:"Watu wa SALT",profiles_title:"Kutana na wanafunzi na timu yetu",profiles_note:"Badilisha majina ya mfano kwa majina na wasifu ulioidhinishwa kabla ya kuchapisha.",
+  programs_label:"Programu na Huduma",programs_title:"Msaada kamili na mafunzo ya vitendo",profiles_label:"Watu wa SALT",profiles_title:"Kutana na Wafanyakazi Wetu",profiles_note:"Kutana na timu inayojitolea kusaidia ujifunzaji, kujitegemea, ustawi na ujumuishaji kazini katika SALT.",
   news_label:"Habari na Matukio",news_title:"Kinachoendelea Kituoni",gallery_label:"Picha",gallery_title:"Maisha katika Kituo cha SALT",admission_label:"Udahili Mtandaoni",admission_title:"Anza kuulizia udahili",admission_text:"Jaza fomu na itafungua WhatsApp ikiwa na taarifa zako tayari kutumwa Kituoni.",
   donate_label:"Saidia SALT",donate_title:"Saidia kuunda fursa za mafunzo, tiba na kazi.",donate_text:"Mchango wako unaweza kusaidia vifaa vya kujifunzia, tiba, chakula, vifaa vya ufundi na maono ya VIWANDA KUMI.",
   contact_label:"Tembelea Kituo",contact_title:"Mbezi Makabe, Dar es Salaam"
