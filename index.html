@@ -44,8 +44,10 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#home" aria-label="SALT Center home">
-        <span class="brand-mark">SALT</span>
-        <span class="brand-copy"><strong>Special Vocational</strong><small>Training Center</small></span>
+        <div class="logo image">
+          <img src="url('asset/images/blacklogo.png')">
+        </div>
+        <span class="brand-copy"><strong>Salt Special</strong><small>Vocational Training Center</small></span>
       </a>
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
       <nav class="main-nav">
@@ -121,7 +123,7 @@
         <div class="reveal">
           <span class="eyebrow" data-i18n="about_label">About the Center</span>
           <h2 data-i18n="about_title">Supporting each learner to reach their full potential.</h2>
-          <p data-i18n="about_p1">SALT is a registered non-governmental organization established to empower children and young adults with developmental disabilities.</p>
+          <p data-i18n="about_p1">SALT (strategic alternative learning techniques) is a registered Non Governmental Organization with registration number 00NGO/R/1855, established with the aim of empowering young adults and children with developmental disabilities, basically Down syndrome, autism spectrum disorder, intellectual impairment, ADHD and cerebral palsy find vocational and life skills so they are able to live to their full potential and are able to better meet their diverse individual needs in their future.</p>
           <p data-i18n="about_p2">The Center offers therapy, vocational education, life skills, entrepreneurship, counselling, advocacy and inclusive work opportunities.</p>
           <div class="mission-cards">
             <article><b data-i18n="mission">Mission</b><p data-i18n="mission_text">To improve quality of life through vocational education, entrepreneurship, counselling, advocacy and advisory services.</p></article>
@@ -144,8 +146,8 @@
           <article class="feature-card reveal"><span>🎵</span><h3>Music Therapy</h3><p>Expression, confidence and social connection through music.</p></article>
           <article class="feature-card reveal"><span>🗣️</span><h3>Speech Stimulation</h3><p>Language, communication and interaction support.</p></article>
           <article class="feature-card reveal"><span>🏃</span><h3>Physiotherapy</h3><p>Mobility, balance, strength and physical wellbeing.</p></article>
-          <article class="feature-card reveal"><span>🧵</span><h3>Vocational Training</h3><p>Textile, food, cosmetics, printing and retail skills.</p></article>
-          <article class="feature-card reveal"><span>🌱</span><h3>Life & Career Skills</h3><p>Independence, agriculture, sports and employment readiness.</p></article>
+          <article class="feature-card reveal"><span>🧵</span><h3>Vocational Training</h3><p>Textile, food, Agriculture, cosmetics, printing and retail skills.</p></article>
+          <article class="feature-card reveal"><span>🌱</span><h3>Life & Career Skills</h3><p>Independence, sports and employment readiness.</p></article>
         </div>
       </div>
     </section>
@@ -155,12 +157,609 @@
         <div class="section-head reveal">
           <span class="eyebrow" data-i18n="profiles_label">People at SALT</span>
           <h2 data-i18n="profiles_title">Meet our learners and team</h2>
-          <p data-i18n="profiles_note">Replace the sample names below with approved names and biographies before publishing.</p>
+          <p data-i18n="profiles_note">get to know us.</p>
         </div>
         <div class="profile-grid">
           <article class="profile-card reveal"><img src="assets/images/student-group.jpg" alt="SALT learners"><div><span>Student Profile</span><h3>Learner Success Story</h3><p>A short, respectful story can be added here with family consent.</p></div></article>
-          <article class="profile-card reveal"><img src="assets/images/staff-engagement.jpg" alt="SALT staff and community"><div><span>Staff Profile</span><h3>Center Support Team</h3><p>Introduce therapists, teachers and vocational instructors.</p></div></article>
-          <article class="profile-card reveal"><img src="assets/images/community-support.jpg" alt="Community support at SALT"><div><span>Community Profile</span><h3>Families & Partners</h3><p>Highlight collaboration that creates meaningful opportunities.</p></div></article>
+          <article class="profile-card reveal"><img src="assets/images/staff-engagement.jpg" alt="SALT staff and community"><div><span>Staff Profile</span><h3>Center Support Team</h3><p>Introducing therapists, teachers and vocational instructors.</p></div>
+          <style>
+.staff-section{
+
+padding:100px 20px;
+background:linear-gradient(
+180deg,
+#fffef8,
+#f5fbff);
+
+}
+
+
+.staff-section h2{
+
+text-align:center;
+font-size:55px;
+color:#0b9662;
+margin-bottom:10px;
+
+}
+
+
+.staff-text{
+
+text-align:center;
+max-width:800px;
+margin:auto;
+line-height:1.8;
+color:gray;
+margin-bottom:50px;
+
+}
+
+
+.staff-container{
+
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+
+.staff-card{
+
+background:white;
+border-radius:30px;
+overflow:hidden;
+box-shadow:
+0 15px 35px rgba(0,0,0,.1);
+
+transition:.4s;
+
+}
+
+
+.staff-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+
+.staff-image{
+
+height:330px;
+background:#f5f5f5;
+
+}
+
+
+.staff-image img{
+
+width:100%;
+height:100%;
+object-fit:contain;
+
+}
+
+
+.staff-information{
+
+padding:25px;
+
+}
+
+
+.department{
+
+background:#0b9662;
+color:white;
+
+padding:8px 15px;
+
+border-radius:30px;
+
+font-size:13px;
+
+}
+
+
+.staff-information h3{
+
+margin-top:20px;
+font-size:24px;
+
+color:#14322a;
+
+}
+
+
+.staff-information p{
+
+line-height:1.7;
+color:#666;
+
+}
+</style>
+
+<section class="staff-section">
+
+<h2>Meet Our Staff</h2>
+<p class="staff-text">
+Meet the dedicated team supporting learning, therapy,
+vocational training and daily activities at SALT Center.
+</p>
+
+<div class="staff-container">
+
+<!-- STAFF CARD -->
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/rebeca(1).png"
+alt="Rebeca Lebi">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Leadership
+</span>
+
+<h3>Rebeca Lebi</h3>
+
+<p>CEO & Founder</p>
+
+</div>
+
+</div>
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/jasmine(1).png"
+alt="Jasmine Omari">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Management
+</span>
+
+<h3>Jasmine Omari</h3>
+
+<p>Programming Manager</p>
+
+</div>
+
+</div>
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/lulu(1).png"
+alt="Lulu Naftal">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Administration
+</span>
+
+<h3>Lulu Naftal</h3>
+
+<p>Office Administrator</p>
+<p>Social Media Manager</p>
+
+</div>
+
+</div>
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/agness(1).png"
+alt="Agness Francis">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Health & Education
+</span>
+
+<h3>Agness Francis</h3>
+
+<p>Physiotherapist</p>
+<p>Red Class Teacher</p>
+<p>Head of Health & Safety</p>
+
+</div>
+
+</div>
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/lisia(1).png"
+alt="Lisia Haule">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Special Education
+</span>
+
+<h3>Lisia Haule</h3>
+
+<p>Special Education Teacher</p>
+<p>Head of Food & Hygiene</p>
+<p>Yellow Class Teacher</p>
+
+</div>
+
+</div>
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/sauda(1).png"
+alt="Sauda Ally">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Therapy & Education
+</span>
+
+<h3>Sauda Ally</h3>
+
+<p>Occupational Therapist</p>
+<p>Blue Class Teacher</p>
+<p>Head of All Classes</p>
+
+</div>
+
+</div>
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/naska(1).png"
+alt="Naska Kayum">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Health Department
+</span>
+
+<h3>Naska Kayum</h3>
+
+<p>Center Nurse</p>
+<p>Gold Class Teacher</p>
+<p>Head of Oil & Batik Class</p>
+<p>Caregiver</p>
+
+</div>
+
+</div>
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/zeulia(1).png"
+alt="Zeulia Nteboya">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Education
+</span>
+
+<h3>Zeulia Nteboya</h3>
+
+<p>Caregiver</p>
+<p>Red Class Teacher</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/fatma(1).png"
+alt="Fatma Mohamed">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Education & Sports
+</span>
+
+<h3>Fatma Mohamed</h3>
+
+<p>Caregiver</p>
+<p>Yellow Class Teacher</p>
+<p>Head of Sports & Games</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/bryson(1).png"
+alt="Bryson Brighton">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Education & Sports
+</span>
+
+<h3>Bryson Brighton</h3>
+
+<p>Caregiver</p>
+<p>Gold Class Teacher</p>
+<p>Head of Sports & Games</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/stanley(1).png"
+alt="Stanley Ngusulu">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Vocational Department
+</span>
+
+<h3>Stanley Ngusulu</h3>
+
+<p>Caregiver</p>
+<p>Blue Class Teacher</p>
+<p>Head of Soap Industry</p>
+
+</div>
+
+</div>
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/colman(1).png"
+alt="Colman Gasper">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Education
+</span>
+
+<h3>Colman Gasper</h3>
+
+<p>Caregiver</p>
+<p>Blue Class Teacher</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/anthony(1).png"
+alt="Anthony Raymond">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Education
+</span>
+
+<h3>Anthony Raymond</h3>
+
+<p>Caregiver</p>
+<p>Red Class Teacher</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/suleiman(1).png"
+alt="Suleiman Sama">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Operations
+</span>
+
+<h3>Suleiman Sama</h3>
+
+<p>Product Supplier</p>
+<p>Center Driver</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/shangwe(1).png"
+alt="Shangwe Mwakihaba">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Marketing
+</span>
+
+<h3>Shangwe Mwakihaba</h3>
+
+<p>Marketing Officer</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/veronica(1).png"
+alt="Veronica Mtundu">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Food Department
+</span>
+
+<h3>Veronica Mtundu</h3>
+
+<p>Center Chef</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/christina(1).png"
+alt="Christina John">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Food Department
+</span>
+
+<h3>Christina John</h3>
+
+<p>Center Chef</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/sophia(1).png"
+alt="Sophia Iddi">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+Cafe & Mini Market
+</span>
+
+<h3>Sophia Iddi</h3>
+
+<p>Cafe & Mini Market Cashier</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="staff-card">
+
+<div class="staff-image">
+<img src="images/nusra(1).png"
+alt="Nusra Ally">
+</div>
+
+<div class="staff-information">
+
+<span class="department">
+SALT Special Cafe
+</span>
+
+<h3>Nusra Ally</h3>
+
+<p>Cafe Chef</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section></article>
+          <article class="profile-card reveal"><img src="assets/images/community-support.jpg" alt="Community support at SALT"><div><span>Community Profile</span><h3>Families & Partners</h3><p>Coming Soon.</p></div></article>
         </div>
       </div>
     </section>
@@ -218,13 +817,15 @@
           <label>Phone / WhatsApp<input name="phone" required></label>
           <label>Learner Name<input name="learner"></label>
           <label>Learner Age<input name="age" type="number" min="2" max="60"></label>
-          <label>Support or Program Needed
-            <select name="program">
-              <option>General Admission</option>
-              <option>Vocational Training</option>
-              <option>Therapy Services</option>
-              <option>Life Skills</option>
-              <option>Employment Readiness</option>
+          <label>developmental disability
+            <select name="developmental disability">
+              <option>Downsyndrome</option>
+              <option>Cerebral Palsy</option>
+              <option>Autism Spectrum Disorder</option>
+              <option>Attention-Deficit/Hyperactivity Disorder(ADHD)</option>
+              <option>Epilepsy</option>
+              <option>intellectual Impairment(II)</option>
+              <option>microcephaly</option>
             </select>
           </label>
           <label>Message<textarea name="message" rows="4"></textarea></label>
@@ -239,7 +840,7 @@
           <span class="eyebrow light" data-i18n="donate_label">Support SALT</span>
           <h2 data-i18n="donate_title">Help create training, therapy and work opportunities.</h2>
           <p data-i18n="donate_text">Your contribution can support learning materials, therapy, meals, vocational equipment and the VIWANDA KUMI Industrial Park vision.</p>
-          <a class="btn btn-light" href="https://wa.me/255719324324?text=Hello%20SALT%2C%20I%20would%20like%20to%20support%20the%20Center." target="_blank">Ask How to Donate</a>
+          <a class="btn btn-light" href="https://wa.me/255715890018?text=Hello%20SALT%2C%20I%20would%20like%20to%20support%20the%20Center." target="_blank">Ask How to Donate</a>
         </div>
         <div class="donation-options reveal">
           <article><span>01</span><h3>Therapy Support</h3><p>Support communication, mobility and developmental services.</p></article>
@@ -253,7 +854,7 @@
       <div class="container contact-grid">
         <div class="reveal">
           <span class="eyebrow light" data-i18n="contact_label">Visit the Center</span>
-          <h2 data-i18n="contact_title">Mbezi Makabe, Dar es Salaam</h2>
+          <h2 data-i18n="contact_title">Shine stret, Mbezi Makabe, Dar es Salaam</h2>
           <p>Shine Street, Mbezi Makabe, Dar es Salaam, Tanzania</p>
           <div class="contact-list">
             <a href="tel:+255719324324">+255 719 324 324</a>
@@ -263,7 +864,7 @@
           </div>
         </div>
         <div class="map-wrap reveal">
-          <iframe title="Map showing Mbezi Makabe, Dar es Salaam" src="https://www.google.com/maps?q=Mbezi%20Makabe%20Dar%20es%20Salaam%20Tanzania&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe title="Map showing Shine street, Mbezi Makabe, Dar es Salaam" src="https://www.google.com/maps?q=shine%20street%20Mbezi%20Makabe%20Dar%20es%20Salaam%20Tanzania&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
