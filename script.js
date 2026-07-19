@@ -40,7 +40,7 @@ Learner: ${d.get('learner')||''}
 Age: ${d.get('age')||''}
 Developmental Disability: ${d.get('developmental disability')||''}
 Message: ${d.get('message')||''}`;
- window.open(`https://wa.me/255719324324?text=${encodeURIComponent(msg)}`,'_blank');
+ window.open(`https://wa.me/255715890018?text=${encodeURIComponent(msg)}`,'_blank');
 });
 
 const translations={
