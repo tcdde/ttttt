@@ -38,7 +38,7 @@ Parent/Guardian: ${d.get('guardian')||''}
 Phone: ${d.get('phone')||''}
 Learner: ${d.get('learner')||''}
 Age: ${d.get('age')||''}
-Program: ${d.get('program')||''}
+Developmental Disability: ${d.get('developmental disability')||''}
 Message: ${d.get('message')||''}`;
  window.open(`https://wa.me/255719324324?text=${encodeURIComponent(msg)}`,'_blank');
 });
